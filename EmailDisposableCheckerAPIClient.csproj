@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.EmailDisposableChecker</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/emaildisposablechecker</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Email Disposable Checker is a simple tool for checking if an email address is disposable. It returns if the email address is disposable or not.</Description>
+    <RepositoryUrl>https://github.com/apiverve/emaildisposablechecker-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>email disposable checker; email disposable checker api; email disposable checker tool; email disposable checker software; email disposable checker service; email disposable checker library; email disposable checker sdk; email disposable checker code; email disposable checker script; email disposable checker program; email disposable checker application; email disposable checker app; email disposable checker utility; email disposable checker helper; email disposable checker helper tool; email disposable checker helper software; email disposable checker helper service; email disposable checker helper library; email disposable checker helper sdk; email disposable checker helper code; email disposable checker helper script; email disposable checker helper program; email disposable checker helper application; email disposable checker helper app; email disposable checker helper utility; email disposable checker helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
