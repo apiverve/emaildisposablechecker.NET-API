@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new emaildisposablecheckerQueryOptions {
+var queryOptions = new EmailDisposableCheckerQueryOptions {
   email = "support@myspace.com"
 };
 ```
@@ -97,7 +97,8 @@ if(response.error != null) {
     "isDisposable": false,
     "email": "support@myspace.com",
     "domain": "myspace.com"
-  }
+  },
+  "code": 200
 }
 ```
 
