@@ -1,4 +1,4 @@
-Email Disposable Checker API
+Disposable Email Checker API
 ============
 
 Email Disposable Checker is a simple tool for checking if an email address is disposable. It returns if the email address is disposable or not.
@@ -7,7 +7,7 @@ Email Disposable Checker is a simple tool for checking if an email address is di
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a .NET Wrapper for the [Email Disposable Checker API](https://apiverve.com/marketplace/api/emaildisposablechecker)
+This is a .NET Wrapper for the [Disposable Email Checker API](https://apiverve.com/marketplace/api/emaildisposablechecker)
 
 ---
 
@@ -15,17 +15,17 @@ This is a .NET Wrapper for the [Email Disposable Checker API](https://apiverve.c
 
 Using the .NET CLI:
 ```
-dotnet add package APIVerve.API.EmailDisposableChecker
+dotnet add package APIVerve.API.DisposableEmailChecker
 ```
 
 Using the Package Manager:
 ```
-nuget install APIVerve.API.EmailDisposableChecker
+nuget install APIVerve.API.DisposableEmailChecker
 ```
 
 Using the Package Manager Console:
 ```
-Install-Package APIVerve.API.EmailDisposableChecker
+Install-Package APIVerve.API.DisposableEmailChecker
 ```
 
 From within Visual Studio:
@@ -33,8 +33,8 @@ From within Visual Studio:
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
 3. Click on Manage NuGet Packages...
-4. Click on the Browse tab and search for "APIVerve.API.EmailDisposableChecker".
-5. Click on the APIVerve.API.EmailDisposableChecker package, select the appropriate version in the right-tab and click Install.
+4. Click on the Browse tab and search for "APIVerve.API.DisposableEmailChecker".
+5. Click on the APIVerve.API.DisposableEmailChecker package, select the appropriate version in the right-tab and click Install.
 
 
 ---
@@ -48,17 +48,17 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Email Disposable Checker API documentation is found here: [https://docs.apiverve.com/api/emaildisposablechecker](https://docs.apiverve.com/api/emaildisposablechecker).  
+The Disposable Email Checker API documentation is found here: [https://docs.apiverve.com/api/emaildisposablechecker](https://docs.apiverve.com/api/emaildisposablechecker).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ###### Authentication
-Email Disposable Checker API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
+Disposable Email Checker API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
 
 ```
 // Create an instance of the API client
-var apiClient = new EmailDisposableCheckerAPIClient("[YOUR_API_KEY]", true);
+var apiClient = new DisposableEmailCheckerAPIClient("[YOUR_API_KEY]", true);
 ```
 
 ---
@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new EmailDisposableCheckerQueryOptions {
+var queryOptions = new DisposableEmailCheckerQueryOptions {
   email = "support@myspace.com"
 };
 ```
